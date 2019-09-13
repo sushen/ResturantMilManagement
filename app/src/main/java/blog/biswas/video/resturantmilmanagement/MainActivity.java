@@ -15,11 +15,11 @@ public class MainActivity extends AppCompatActivity {
 
         Meal vegMeal = builder.makeVegMeal();
         vegMeal.ShowMeal();
-        System.out.println("Total Cost:" + vegMeal.getCost());
+        System.out.println("Total Cost: " + vegMeal.getCost());
 
         Meal NonvegMeal = builder.makeNonVegMeal();
         NonvegMeal.ShowMeal();
-        System.out.println("Total Cost:" + NonvegMeal.getCost());
+        System.out.println("Total Cost: " + NonvegMeal.getCost());
 
     }
 }
